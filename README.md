@@ -2,11 +2,11 @@
 A project aimed to create a fully playable Tic Tac Toe game usig python.
 Currently there is no GUI, so the board is displayed using text in this format: (remind me to change this when I make a GUI build)
 
-0|1|2
--+-+-
-3|4|5
--+-+-
-6|7|8
+0|1|2  
+-+-+-  
+3|4|5  
+-+-+-  
+6|7|8  
 
 # A general explaanation of the bot's code
 
