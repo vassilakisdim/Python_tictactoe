@@ -19,6 +19,17 @@ The bot has this priority when playing
 
 Obviously, instructions like "Pick the center square" will get skipped if the squares are taken, and the bot will pick a move lower in the priority list
 
+# Update name explanation
+
+example update name:
+
+1.0.1
+
+First digit: Main release. When the number goes up, it indicates a major change (such as the addition of a GUI)
+Second digit: Feature drop. When a new feature is added, or the GUI has been redesigned (After I add it)
+Tird digit: Minor bug fixes
+
+
 # Notes
 
 - Future builds will mainly focus on the development of  GUI and\or bug fixes, since I think the bot is good enough
