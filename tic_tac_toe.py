@@ -13,12 +13,18 @@ def show(b):
 
 def player_move():
     while True:
-        choice = int(input("number: "))
-        if 0 <= choice <= 8 and board[choice] == " ":
-            board[choice] = "X"
-            break
+        choice = (input("number: "))
+        #print(type(choice))        #exclusively for debug purposes
+        if str.isdigit(choice):
+            choice = int(choice)
+            if 0 <= choice <= 8 and board[choice] == " ":
+                board[choice] = "X"
+                break
+            else:
+                print("taken")
         else:
-            print("taken")
+            print ("This is not a valid option, try again")
+        
     show(board)
 
 def ai_move():
@@ -104,5 +110,4 @@ while True:
     if check_winner(board, 0):
         print("AI won")
         break
-
 
