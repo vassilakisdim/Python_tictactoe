@@ -1,3 +1,5 @@
+# GUI Update is out in a beta stage
+
 # Python_tictactoe
 A project aimed to create a fully playable Tic Tac Toe game usig python.
 Currently there is no GUI, so the board is displayed using text in this format: (remind me to change this when I make a GUI build)
